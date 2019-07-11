@@ -1,0 +1,9 @@
+---
+applications:
+  - name: task
+    path: target/demo-0.0.1-SNAPSHOT.jar
+    no-route: true
+    instances: 0
+    services:
+      - taskdb
+
